@@ -1,5 +1,5 @@
-file_name = '../pictures/learn/eye0_0001_big.png';
-offset = 50;
+file_name = '../pictures/test/eye0_0001_big.png';
+offset = 10;
 
 pic_rgb = imread(file_name);
 pic_gs = rgb2gray(pic_rgb);
