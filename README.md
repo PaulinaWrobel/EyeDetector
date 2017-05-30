@@ -6,5 +6,6 @@
     - `getNieoka` and `getOka`
     - or `loadPatterns`
 - training - `netTrain`
+- concatenate data - `catPatterns`
 - find eye in the picture - `findEye`
 - show results on the picture - `showResults`

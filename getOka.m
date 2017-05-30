@@ -1,24 +1,13 @@
-% files_oka{1} = dir('../pictures/p04/day01/_256x256/*.png');
-% files_oka{2} = dir('../pictures/p04/day02/_256x256/*.png');
-% files_oka{3} = dir('../pictures/p04/day03/_256x256/*.png');
-% files_oka{4} = dir('../pictures/p04/day04/_256x256/*.png');
-% files_oka{5} = dir('../pictures/p04/day05/_256x256/*.png');
-% files_oka{6} = dir('../pictures/p04/day06/_256x256/*.png');
-% files_oka{7} = dir('../pictures/p04/day07/_256x256/*.png');
-% files_oka{8} = dir('../pictuares/p04/day08/_256x256/*.png');
-% files_oka{9} = dir('../pictures/p04/day09/_256x256/*.png');
-% files_oka{10} = dir('../pictures/p04/day10/_256x256/*.png');
-
-name_oka{1} = '../pictures/p04/day01/_256x256/';
-name_oka{2} = '../pictures/p04/day02/_256x256/';
-name_oka{3} = '../pictures/p04/day03/_256x256/';
-name_oka{4} = '../pictures/p04/day04/_256x256/';
-name_oka{5} = '../pictures/p04/day05/_256x256/';
-name_oka{6} = '../pictures/p04/day06/_256x256/';
-name_oka{7} = '../pictures/p04/day07/_256x256/';
-name_oka{8} = '../pictuares/p04/day08/_256x256/';
-name_oka{9} = '../pictures/p04/day09/_256x256/';
-name_oka{10} = '../pictures/p04/day10/_256x256/';
+name_oka{1} = '../pictures/oka/p00/day01/_32x32/';
+name_oka{2} = '../pictures/oka/p00/day02/_32x32/';
+name_oka{3} = '../pictures/oka/p00/day03/_32x32/';
+name_oka{4} = '../pictures/oka/p00/day04/_32x32/';
+name_oka{5} = '../pictures/oka/p00/day05/_32x32/';
+name_oka{6} = '../pictures/oka/p00/day06/_32x32/';
+name_oka{7} = '../pictures/oka/p00/day07/_32x32/';
+name_oka{8} = '../pictures/oka/p00/day08/_32x32/';
+name_oka{9} = '../pictures/oka/p00/day09/_32x32/';
+name_oka{10} = '../pictures/oka/p00/day10/_32x32/';
 
 tic
 patterns_oka = [];
