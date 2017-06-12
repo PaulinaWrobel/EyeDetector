@@ -3,9 +3,8 @@
 ### Scripts running order
 - init - `netInit`
 - prepare data
-    - `getNieoka` and `getOka`
+    - `getNieoka` and `getOka` and `catPatterns`
     - or `loadPatterns`
 - training - `netTrain`
-- concatenate data - `catPatterns`
 - find eye in the picture - `findEye`
 - show results on the picture - `showResults`
