@@ -1,4 +1,4 @@
-list_dir = dir('../pictures/nieoka/**');
+list_dir = dir('../pictures/latest/LMSun/Images');
 
 k = 0;
 tic
@@ -11,6 +11,12 @@ for d = list_dir'
     end
     toc
     k = k + 1
+end
+toc
+files_nieoka2 = dir('../pictures/latest/SiftFlowDataset/_32x32/*.png');
+for f = files_nieoka2'
+    pic_gs = imread(['../pictures/latest/SiftFlowDataset/_32x32/' f.name]);
+    patterns_nieoka = [patterns_nieoka reshape(pic_gs, frame(1)*frame(2), 1)];
 end
 toc
 
